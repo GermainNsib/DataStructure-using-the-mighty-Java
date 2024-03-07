@@ -79,10 +79,10 @@ public class Main {
             bst.insert(12);
 
             System.out.println("Inorder traversal:");
-            bst.inorderTraversal(); // Output: 5 7 10 12 15
+            bst.inorderTraversal(); 
 
-            System.out.println("\nSearch for 7: " + bst.search(7)); // Output: true
-            System.out.println("Search for 20: " + bst.search(20)); // Output: false
+            System.out.println("\nSearch for 7: " + bst.search(7));
+            System.out.println("Search for 20: " + bst.search(20)); 
         }
     }
 }
