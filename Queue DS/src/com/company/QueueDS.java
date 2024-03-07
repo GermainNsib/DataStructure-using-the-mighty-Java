@@ -53,8 +53,8 @@ import java.util.NoSuchElementException;
             queue.enqueue(2);
             queue.enqueue(3);
 
-            System.out.println("Dequeue: " + queue.dequeue()); // Output: 1
-            System.out.println("Peek: " + queue.peek()); // Output: 2
-            System.out.println("Is Empty: " + queue.isEmpty()); // Output: false
+            System.out.println("Dequeue: " + queue.dequeue()); 
+            System.out.println("Peek: " + queue.peek());
+            System.out.println("Is Empty: " + queue.isEmpty());
         }
     }
