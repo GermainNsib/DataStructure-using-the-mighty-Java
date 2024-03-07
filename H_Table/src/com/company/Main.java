@@ -5,7 +5,9 @@ public class Main {
 
 
     public static void main(String[] args) {
-        //A hash table, also known as a hash map, is a data structure that implements an associative array abstract data type, a structure that can map keys to values. A hash table uses a hash function to compute an index into an array of buckets or slots, from which the desired value can be found.
+        /*A hash table, also known as a hash map, is a data structure that implements an associative array abstract data type, 
+        a structure that can map keys to values. A hash table uses a hash function to compute an index into an array of buckets 
+        or slots, from which the desired value can be found.*/
 
 
         public class HashTable<K, V> {
@@ -93,12 +95,12 @@ public class Main {
                 hashTable.put("two", 2);
                 hashTable.put("three", 3);
 
-                System.out.println("Value for key 'two': " + hashTable.get("two")); // Output: 2
+                System.out.println("Value for key 'two': " + hashTable.get("two"));
 
                 hashTable.remove("two");
-                System.out.println("Value for key 'two' after removal: " + hashTable.get("two")); // Output: null
+                System.out.println("Value for key 'two' after removal: " + hashTable.get("two"));
 
-                System.out.println("Size of hash table: " + hashTable.size()); // Output: 2
+                System.out.println("Size of hash table: " + hashTable.size());
             }
         }
     }
