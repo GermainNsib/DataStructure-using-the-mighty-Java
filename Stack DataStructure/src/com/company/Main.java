@@ -49,8 +49,8 @@ public class StackDataStructure<T> {
         stack.push(2);
         stack.push(3);
 
-        System.out.println("Pop: " + stack.pop()); // Output: 3
-        System.out.println("Peek: " + stack.peek()); // Output: 2
-        System.out.println("Is Empty: " + stack.isEmpty()); // Output: false
+        System.out.println("Pop: " + stack.pop()); 
+        System.out.println("Peek: " + stack.peek()); 
+        System.out.println("Is Empty: " + stack.isEmpty());
     }
 }
