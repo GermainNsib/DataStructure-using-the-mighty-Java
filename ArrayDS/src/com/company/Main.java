@@ -66,12 +66,12 @@ public class Main {
         arr.add(4);
         arr.add(5);
 
-        System.out.println("Element at index 3: " + arr.get(3)); // Output: 4
+        System.out.println("Element at index 3: " + arr.get(3));
 
         arr.set(1, 10);
-        System.out.println("Element at index 1: " + arr.get(1)); // Output: 10
+        System.out.println("Element at index 1: " + arr.get(1)); 
 
         arr.remove(2);
-        System.out.println("Size after removal: " + arr.size()); // Output: 4
+        System.out.println("Size after removal: " + arr.size());
     }
 }
