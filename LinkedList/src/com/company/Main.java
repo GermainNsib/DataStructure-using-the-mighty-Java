@@ -61,8 +61,8 @@ import java.util.NoSuchElementException;
                 list.addLast(2);
                 list.addLast(3);
 
-                System.out.println("Size: " + list.size()); // Output: 3
-                System.out.println("Remove first: " + list.removeFirst()); // Output: 1
-                System.out.println("Size after removal: " + list.size()); // Output: 2
+                System.out.println("Size: " + list.size()); 
+                System.out.println("Remove first: " + list.removeFirst()); 
+                System.out.println("Size after removal: " + list.size()); 
             }
         }
