@@ -107,7 +107,7 @@ public class Main {
                 tree.insert(12);
 
                 System.out.println("Inorder traversal:");
-                tree.inorderTraversal(); // Output: 5 7 10 12 15
+                tree.inorderTraversal();
             }
         }
     }
